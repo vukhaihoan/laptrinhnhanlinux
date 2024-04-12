@@ -1,0 +1,1 @@
+cmd_/home/minhmdl/lab6/hello2/hello2.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/minhmdl/lab6/hello2/hello2.ko /home/minhmdl/lab6/hello2/hello2.o /home/minhmdl/lab6/hello2/hello2.mod.o;  true

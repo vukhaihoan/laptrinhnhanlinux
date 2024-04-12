@@ -1,0 +1,1 @@
+cmd_/home/minhmdl/lab7/main.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/minhmdl/lab7/main.ko /home/minhmdl/lab7/main.o /home/minhmdl/lab7/main.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/minhmdl/lab6/hello2/Module.symvers := sed 's/\.ko$$/\.o/' /home/minhmdl/lab6/hello2/modules.order | scripts/mod/modpost -m -a  -o /home/minhmdl/lab6/hello2/Module.symvers -e -i Module.symvers   -T -
